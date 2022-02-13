@@ -114,8 +114,13 @@ body{
     .search{
         margin-top:160px;
     }
+    input[type="search"]{
+        height:80px;
+        font:30px;
+    }
     .vertical{
-        height:800px;
+        margin-top:-90px;
+        height:860px;
     }
     .threeboxes{
         margin-top:100px;
