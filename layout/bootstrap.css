@@ -1,0 +1,292 @@
+.cont{
+    padding:0px;
+}
+.headpart{
+    background-color:#2f3d46 ;
+    color:#f7ffff;
+}
+.headpart>p{
+    background-color:#2f3d46 ;
+    text-align:center;
+    height: 100px;
+    padding-top:28px;
+    font-size: 28px;
+}
+.vertical{
+    height:550px;
+    border-radius:30px;
+    margin-top:50px;
+    background-color:#353535;
+}
+.search{
+    padding-top:50px;
+} 
+input[type="search"]{
+    color:white;
+    height: 50px;
+    font-size: 20px;
+    letter-spacing:2px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing:2px;
+    border-radius:10px;
+    border:none;
+    background-color:#353535;
+}
+.box-1,.box-2,.box-3{
+    height:150px;
+    border-radius:15px;
+    margin-top:50px;
+    background-color:#353535;
+}
+.last{
+    height: 180px;
+    margin-top:50px;
+    margin-bottom: 40px;
+    border-radius:15px;
+    background-color:#353535;
+}
+body{
+    background-color:#cad2c5;
+}
+.img>img{
+    height:50px;
+    border-radius: 10px;
+    float:left;
+    position:absolute;
+    top:28px;
+    left:20px;
+    margin-left: 10px;
+} 
+::placeholder{
+    color:#a1a1a1;
+    letter-spacing:2px;
+    font-family: 'Inter', sans-serif;
+}
+.bodypart{
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+@media(max-width:425px){
+    .threeboxes{
+        padding-left:22px;
+        padding-right:0px;
+    }
+}
+
+@media(min-width:992px){
+    .vertical{
+        margin-top:-50px;
+        position:relative;
+    }
+    .threeboxes{
+        margin-top: 30px;
+    }
+    .last{
+        position:absolute;
+        left:-37px;
+        margin-top:-200px;
+    }
+}
+@media(min-width:1200px){
+    .vertical{
+        position:relative;
+    }
+    .last{
+        position:absolute;
+        left:-124px;
+    }
+}
+@media(min-width:1440px){
+    .vertical{
+        position:relative;
+    }
+    .threeboxes{
+        margin-left:10px;
+    }
+    .last{
+        margin-top:-200px;
+        position:absolute;
+        left:-130px;
+    }
+}
+@media(min-width:2560px){
+    .search{
+        margin-top:160px;
+    }
+    .vertical{
+        height:800px;
+    }
+    .threeboxes{
+        margin-top:100px;
+    }
+    .box-1,.box-2,.box-3{
+        height:250px;
+    }
+    .last{
+        left:-230px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media(min-width:768px){
+    .vertical1{
+        margin-top:50px;
+        margin-left:10px;
+        width:100%;
+    }
+    input[type="search"]{
+        width: 445px;
+    }
+    .boxes1{
+        padding-left:20px;
+    }
+    /* .box11,.box22,.box33{
+        width:250px;
+    }
+    .last1{
+        width:745px;
+        margin-left :-9px;
+        margin-bottom: 40px;
+    }
+    body{
+        overflow:visible;
+} */
+
+
+
+
+
+ /* @media(min-width:320px){
+    .vertical{
+        margin-top:50px;
+        margin-left: 13px;
+        width:295px;
+    }
+    .search{
+        padding-top:50px;
+
+    }
+    input[type="search"]{
+        width:295px;
+    }
+    .boxes{
+        padding-left:70px;
+    }
+    .last{
+        width:295px;
+        margin-left:-58px;
+        margin-bottom: 40px;
+    }
+    body{
+        overflow:visible;
+    } 
+
+}
+
+@media(min-width:375px){
+    .vertical{
+        margin-top:50px;
+        width:350px;
+    }
+    .search{
+        padding-top:50px;
+    }
+    input[type="search"]{
+        width:350px;
+    }
+    .boxes{
+        padding-left:72px;
+    }
+    .box-1,.box-2,.box-3{
+        width:250px;
+    }
+    .last{
+        width:350px;
+        margin-left:-59px;
+        margin-bottom: 40px;
+    }
+    body{
+        overflow:visible;
+    }
+
+}
+
+@media(min-width:425px){
+    .vertical{
+        margin-top:50px;
+        width:400px;
+    }
+    .search{
+        padding-top:50px;
+    }
+    input[type="search"]{
+        width:400px;
+    }
+    .boxes{
+        padding-left:70px;
+    }
+    .box-1,.box-2,.box-3{
+        width:300px;
+    }
+    .last{
+        width:400px;
+        margin-left :-57px;
+        margin-bottom: 40px;
+    }
+    body{
+        overflow:visible;
+    }
+
+}
+
+@media(min-width:768px){
+    .vertical{
+        margin-top:50px;
+        width:400px;
+    }
+    .search{
+        padding-top:50px;
+    }
+    input[type="search"]{
+        width: 745px;
+    }
+    .boxes{
+        padding-left:16px;
+    }
+    .box-1,.box-2,.box-3{
+        width:300px;
+    }
+    .last{
+        width:745px;
+        margin-left :-14px;
+        margin-bottom: 20px;
+    }
+    body{
+        overflow:visible;
+    }
+} */
